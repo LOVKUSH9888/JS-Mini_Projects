@@ -35,8 +35,28 @@
 }
 
 .column {
+    margin-top: 10px;
     width: 1000px;
-    height: 100px;
-    border: white solid;
+   /* height: 100px; */
+    display: flex;
+    /*border: white solid;*/
+    justify-content: center;
     margin: auto;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.column div {
+    width: 250px;
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    background-color:rgba(red, green, blue, alpha);
+    border-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+    /*display: block; */
 }
